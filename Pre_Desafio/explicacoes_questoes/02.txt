@@ -1,0 +1,18 @@
+NOME_DO_ARQUIVO = xorHex.java
+
+raciocínio do algoritmo:
+
+
+entrada hex01
+entrada hex02
+
+hex01 e hex02 -> hex01 e hex02 bytes
+
+loop:
+	hexFinal = hex01[i] ^ hex02[i]
+
+System.outprintln(hexFinal);
+
+
+saída:
+"746865206b696420646f6e277420706c6179"

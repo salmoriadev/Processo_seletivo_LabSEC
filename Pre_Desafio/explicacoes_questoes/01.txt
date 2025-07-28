@@ -1,0 +1,13 @@
+NOME_DO_ARQUIVO = HexToBase64.java
+algoritmo:
+
+entrada hex
+hex -> hex em bytes
+
+hex em bytes -> base64     //utilizar função de conversão
+
+System.out.println(base64);
+
+
+saída:
+"SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t"

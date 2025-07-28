@@ -1,0 +1,34 @@
+Não tem arquivo.
+
+Meu raciocínio para esse algoritmo seria testando os 256 caracteres para cada valor do tamanho da chave. Ir testando de tamanho 2 ao 40 até conseguir fazer:
+hex("this is a test") -> hex("wokka wokka!!!")
+
+podemos ir diminuindo os textes ao ver que teria que ser uma chave um pouco maior considerando.
+
+Acredito que esse algoritmo é de uma complexidade não necessária para fazer o problema proposto, mas é o que pensei em implementar.
+
+algoritmo pensado:
+
+entrada base64 -> hex
+
+cifraTest = "this is a test"
+
+objetivo = "wokka wokka!!!"
+
+loop tamanhoChave (2 a 40){
+	loop chave (todos os valores hexadecimais) {
+		loop xor bytes{
+			teste += cifraText[i] ^ chaveTestada 
+			}
+		if String(teste) == objetivo --> chave = chaveTestada
+			
+}
+	chaveTamanho + 1
+}
+	loop bytes entradaHex{
+	resultado = entradaHex[i] ^ chave[i mod tamanhoChave]
+}
+
+System.out.println(String(resultado))
+
+IMPLEMENTAÇÃO FOI FEITA APÓS A ENTREGA E AINDA NÃO ESTÁ CORRETA!!!

@@ -1,0 +1,18 @@
+NOME_DO_ARQUIVO = singleByteCipher.java
+
+raciocínio pensado antes da codificação:
+
+
+função principal:
+	lista de todos os hex codificados
+	
+	loop para percorrer a lista:
+		testar para cada elemento o caracteres para fazer o XOR
+		ver o quão próximo da língua inglesa é por uma pontuação
+		melhorLinha = linha[i]
+	
+	System.out.println(melhorLinha);
+
+
+saída:
+"a compliment to a man's character"

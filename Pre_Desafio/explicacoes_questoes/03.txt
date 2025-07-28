@@ -1,0 +1,16 @@
+NOME_DO_ARQUIVO = singleByteXor.java
+
+raciocicinio do algoritmo pensado antes da codificação:
+
+
+cria um mapa para frequência de caracteres em inglês para pontuação
+
+entrada em hex -> transforma em bytes
+
+loop para
+	fazer o xor considerando os caracteres mais frequentes do inglês (outro loop) e pontuação para o quão parecido com o inglês
+imprimir o com a maior pontuação
+
+
+saída:
+"Cooking MC's like a pound of bacon"

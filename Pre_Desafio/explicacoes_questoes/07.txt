@@ -1,0 +1,26 @@
+NOME_DO_ARQUIVO = DecryptAES.java
+
+
+primeiro fiz pelo openssl para ver o resultado desejado:
+
+echo "TEXTO" | openssl base64 -d | openssl enc -d -aes-128-ecb -K 59454c4c4f57205355424d4152
+
+
+
+depois pensei em como codificar:
+
+
+entrada texto
+
+chave -> chaveBytes
+
+textoDecifrado = decrypt.texto.AES(chaveBytes)
+
+
+
+saída:
+"I'm back and I'm ringin' the bell 
+A rockin' on the mike while the fly girls yell
+...
+Play that funky music, white boy Come on, Come on, Come on 
+Play that funky music"
