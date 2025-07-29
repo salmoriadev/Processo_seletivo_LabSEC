@@ -1,6 +1,6 @@
 # Processo Seletivo LabSEC - Desafio Final
 
-Este repositório contém a resolução do desafio final do processo seletivo para o Laboratório de Segurança em Computação (LabSEC) da Universidade Federal de Santa Catarina (UFSC). O projeto foi desenvolvido por Arthur de Farias Salmoria e aborda conceitos fundamentais de criptografia e segurança da informação, como cálculo de hash, geração de chaves assimétricas, certificados digitais, repositórios seguros (PKCS#12) e assinaturas digitais.
+Este repositório contém a resolução do desafio final do processo seletivo para o Laboratório de Segurança em Computação (LabSEC) da Universidade Federal de Santa Catarina (UFSC). O projeto aborda conceitos fundamentais de criptografia e segurança da informação, como cálculo de hash, geração de chaves assimétricas, certificados digitais, repositórios seguros (PKCS#12) e assinaturas digitais.
 
 ## Sumário do Projeto
 
